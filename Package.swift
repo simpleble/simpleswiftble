@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "SimpleSwiftBLE", targets: ["SimpleSwiftBLE"])
     ],
     targets: [
-        .binaryTarget(name: "CSimpleBLE", url: "https://github.com/simpleble/simpleswiftble/releases/download/v1.3.0/CSimpleBLE.xcframework.zip", checksum: "06105ccf2489163f10274da7451c795f8db3bfed5b5bcac9e3840f32321c4a89"),
+        .binaryTarget(name: "CSimpleBLE", url: "https://github.com/simpleble/simpleswiftble/releases/download/v1.3.1-dev.1/CSimpleBLE.xcframework.zip", checksum: "45dee54317ce9649428dad5e4f4513e101a5eb348724767b387651ba6b77f20d"),
         .target(
             name: "SimpleSwiftBLE",
             dependencies: ["CSimpleBLE"],
